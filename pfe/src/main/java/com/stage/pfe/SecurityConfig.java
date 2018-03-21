@@ -60,6 +60,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	/*This method is used for override HttpSecurity of the web Application.
     We can specify our authorization criteria inside this method.*/
+	/*This method is used for override HttpSecurity of the web Application.
+    We can specify our authorization criteria inside this method.*/
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
